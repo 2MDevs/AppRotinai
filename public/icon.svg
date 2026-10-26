@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="botanicGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#40916C" />
+      <stop offset="100%" stop-color="#1B4332" />
+    </linearGradient>
+    <linearGradient id="leafSoft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74C69D" />
+      <stop offset="100%" stop-color="#2D6A4F" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#FFFFFF"/>
+  <circle cx="256" cy="256" r="216" fill="#F0F7F4" />
+  <!-- Botanical leaf spiral motif -->
+  <path d="M256 100 C 340 100, 400 160, 400 240 C 400 320, 330 390, 240 390 C 170 390, 120 340, 120 270 C 120 200, 170 150, 230 150 C 290 150, 320 190, 320 235 C 320 270, 290 300, 255 300 C 230 300, 210 280, 210 255 C 210 230, 230 215, 250 215" fill="none" stroke="url(#botanicGrad)" stroke-width="26" stroke-linecap="round"/>
+  <!-- Central organic leaf element -->
+  <path d="M256 120 C 320 160, 340 240, 280 290 C 230 240, 240 160, 256 120 Z" fill="url(#leafSoft)" opacity="0.9"/>
+  <path d="M240 370 C 180 340, 160 260, 210 210 C 260 260, 245 330, 240 370 Z" fill="url(#botanicGrad)" opacity="0.85"/>
+  <circle cx="256" cy="256" r="14" fill="#52B788" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "summary":  "Plano de implementação completo para o RotinAPP, cobrindo as 20 telas do painel de design, arquitetura full-stack com Express e banco persistente, autenticação JWT, sincronização offline PWA, síntese e transcrição de voz, notificações Web Push e assistente de IA com chamadas de ferramentas seguras.",
+  "updatedAt":  "2026-10-21T00:32:57.851676699Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

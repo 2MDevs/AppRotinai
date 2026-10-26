@@ -1,0 +1,1155 @@
+{
+  "users": [
+    {
+      "id": "usr_brenda_silva",
+      "name": "Brenda Silva",
+      "email": "brenda@email.com",
+      "passwordHash": "123456",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=250&q=80",
+      "timezone": "America/Sao_Paulo",
+      "createdAt": "2026-10-21T00:47:59.379Z"
+    }
+  ],
+  "habitGroups": [
+    {
+      "id": "grp_casa_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Casa",
+      "icon": "Home",
+      "color": "#52B788",
+      "order": 1
+    },
+    {
+      "id": "grp_eu_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Eu",
+      "icon": "User",
+      "color": "#40916C",
+      "order": 2
+    },
+    {
+      "id": "grp_maternidade_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Maternidade",
+      "icon": "Heart",
+      "color": "#E76F51",
+      "order": 3
+    },
+    {
+      "id": "grp_relacionamentos_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Relacionamentos",
+      "icon": "Users",
+      "color": "#2A9D8F",
+      "order": 4
+    },
+    {
+      "id": "grp_trabalho_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Trabalho",
+      "icon": "Briefcase",
+      "color": "#264653",
+      "order": 5
+    },
+    {
+      "id": "grp_saude_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Saúde",
+      "icon": "Activity",
+      "color": "#10B981",
+      "order": 6
+    }
+  ],
+  "habits": [
+    {
+      "id": "h1_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_eu_usr_brenda_silva",
+      "name": "Beber água",
+      "description": "Meta de 2.5L ao longo do dia",
+      "type": "positivo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reminderTime": "09:00",
+      "order": 1,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h2_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_eu_usr_brenda_silva",
+      "name": "Fazer atividade física",
+      "description": "Caminhada ou pilates 30 minutos",
+      "type": "positivo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reminderTime": "07:30",
+      "order": 2,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h3_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_maternidade_usr_brenda_silva",
+      "name": "Ser paciente com as crianças",
+      "description": "Respirar fundo antes de responder nas birras",
+      "type": "positivo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reminderTime": "17:00",
+      "order": 3,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h4_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_eu_usr_brenda_silva",
+      "name": "Evitar redes sociais",
+      "description": "Não usar celular na primeira hora após acordar",
+      "type": "negativo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reminderTime": "06:30",
+      "order": 4,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h5_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_relacionamentos_usr_brenda_silva",
+      "name": "Falar com calma",
+      "description": "Tom de voz acolhedor nas conversas em família",
+      "type": "positivo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "order": 5,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h6_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_eu_usr_brenda_silva",
+      "name": "Comer doces em excesso",
+      "description": "Evitar açúcar refinado à tarde e à noite",
+      "type": "negativo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "order": 6,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h7_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_casa_usr_brenda_silva",
+      "name": "Manter a pia limpa à noite",
+      "description": "Organizar a cozinha antes de deitar",
+      "type": "positivo",
+      "frequency": "Diária",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reminderTime": "21:00",
+      "order": 7,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "h8_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "groupId": "grp_trabalho_usr_brenda_silva",
+      "name": "Encerrar o expediente no horário",
+      "description": "Evitar levar demandas do trabalho para o jantar",
+      "type": "negativo",
+      "frequency": "Dias úteis",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "reminderTime": "18:00",
+      "order": 8,
+      "archived": false,
+      "createdAt": "2026-10-21"
+    }
+  ],
+  "habitEntries": [
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-21",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-21",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-20",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-20",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-19",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-19",
+      "status": "ocorrido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "ocorrido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-18",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-18",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-17",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-17",
+      "status": "ocorrido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "ocorrido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-16",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-16",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h1_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h1_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h2_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h2_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "nao_concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h3_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h3_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h4_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h4_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h5_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h5_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h6_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h6_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h7_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h7_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "concluido",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    },
+    {
+      "id": "entry_h8_usr_brenda_silva_2026-10-15",
+      "userId": "usr_brenda_silva",
+      "habitId": "h8_usr_brenda_silva",
+      "date": "2026-10-15",
+      "status": "evitado",
+      "updatedAt": "2026-10-21T00:47:59.379Z"
+    }
+  ],
+  "exceptionalDays": [],
+  "dailyRoutines": [
+    {
+      "id": "rot_manha_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Rotina da manhã",
+      "description": "Começar o dia com calma e clareza",
+      "startTime": "06:00",
+      "endTime": "08:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "category": "Manhã",
+      "color": "#2D6A4F",
+      "notificationEnabled": true,
+      "reminderMinutes": 10,
+      "active": true,
+      "items": [
+        {
+          "id": "i1",
+          "routineId": "rot_manha_usr_brenda_silva",
+          "title": "Acordar",
+          "completed": true,
+          "order": 1
+        },
+        {
+          "id": "i2",
+          "routineId": "rot_manha_usr_brenda_silva",
+          "title": "Higiene pessoal",
+          "completed": true,
+          "order": 2
+        },
+        {
+          "id": "i3",
+          "routineId": "rot_manha_usr_brenda_silva",
+          "title": "Café da manhã nutritivo",
+          "completed": true,
+          "order": 3
+        },
+        {
+          "id": "i4",
+          "routineId": "rot_manha_usr_brenda_silva",
+          "title": "Organizar a casa",
+          "completed": true,
+          "order": 4
+        }
+      ]
+    },
+    {
+      "id": "rot_trabalho_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Trabalho e Foco",
+      "description": "Bloco de produtividade",
+      "startTime": "08:30",
+      "endTime": "12:00",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "category": "Trabalho",
+      "color": "#2A9D8F",
+      "notificationEnabled": true,
+      "reminderMinutes": 15,
+      "active": true,
+      "items": [
+        {
+          "id": "i5",
+          "routineId": "rot_trabalho_usr_brenda_silva",
+          "title": "Revisar pendências do dia",
+          "completed": true,
+          "order": 1
+        },
+        {
+          "id": "i6",
+          "routineId": "rot_trabalho_usr_brenda_silva",
+          "title": "Executar tarefa principal",
+          "completed": false,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "rot_almoco_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Almoço em família",
+      "description": "Pausa para recarregar as energias",
+      "startTime": "12:00",
+      "endTime": "13:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "category": "Saúde",
+      "color": "#E76F51",
+      "notificationEnabled": true,
+      "reminderMinutes": 5,
+      "active": true,
+      "items": [
+        {
+          "id": "i7",
+          "routineId": "rot_almoco_usr_brenda_silva",
+          "title": "Almoçar sem telas",
+          "completed": false,
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": "rot_tarde_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Tarde livre / Atividades",
+      "description": "Acompanhamento escolar e compromissos",
+      "startTime": "13:00",
+      "endTime": "17:00",
+      "daysOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "category": "Família",
+      "color": "#F4A261",
+      "notificationEnabled": false,
+      "reminderMinutes": 10,
+      "active": true,
+      "items": [
+        {
+          "id": "i8",
+          "routineId": "rot_tarde_usr_brenda_silva",
+          "title": "Ajudar no dever de casa",
+          "completed": false,
+          "order": 1
+        },
+        {
+          "id": "i9",
+          "routineId": "rot_tarde_usr_brenda_silva",
+          "title": "Lanche saudável",
+          "completed": false,
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "rot_noite_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Rotina da noite",
+      "description": "Desacelerar e preparar para dormir",
+      "startTime": "19:00",
+      "endTime": "22:00",
+      "daysOfWeek": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "category": "Noite",
+      "color": "#1B4332",
+      "notificationEnabled": true,
+      "reminderMinutes": 15,
+      "active": true,
+      "items": [
+        {
+          "id": "i10",
+          "routineId": "rot_noite_usr_brenda_silva",
+          "title": "Jantar em família",
+          "completed": false,
+          "order": 1
+        },
+        {
+          "id": "i11",
+          "routineId": "rot_noite_usr_brenda_silva",
+          "title": "Banho das crianças",
+          "completed": false,
+          "order": 2
+        },
+        {
+          "id": "i12",
+          "routineId": "rot_noite_usr_brenda_silva",
+          "title": "Contar história antes de dormir",
+          "completed": false,
+          "order": 3
+        },
+        {
+          "id": "i13",
+          "routineId": "rot_noite_usr_brenda_silva",
+          "title": "Desconectar aparelhos eletrônicos",
+          "completed": false,
+          "order": 4
+        }
+      ]
+    }
+  ],
+  "recurringTasks": [
+    {
+      "id": "tsk1_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Unhas",
+      "frequency": "semanal",
+      "ruleDescription": "Toda segunda-feira",
+      "nextDueDate": "2026-10-23",
+      "daysRemaining": 2,
+      "status": "pendente",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "tsk2_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Pesar as crianças",
+      "frequency": "trimestral",
+      "ruleDescription": "A cada 3 meses",
+      "nextDueDate": "2026-12-30",
+      "daysRemaining": 70,
+      "status": "pendente",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "tsk3_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Consulta médica de rotina",
+      "frequency": "mensal",
+      "ruleDescription": "Todo dia 15",
+      "nextDueDate": "2026-11-02",
+      "daysRemaining": 12,
+      "status": "pendente",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "tsk4_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Limpeza geral da casa",
+      "frequency": "semanal",
+      "ruleDescription": "Toda sexta-feira",
+      "nextDueDate": "2026-10-26",
+      "daysRemaining": 5,
+      "status": "pendente",
+      "createdAt": "2026-10-21"
+    }
+  ],
+  "familyMembers": [
+    {
+      "id": "fam_ana_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Ana",
+      "ageText": "8 anos",
+      "relationship": "Filha",
+      "avatarUrl": "https://images.unsplash.com/photo-1543332164-6e82f355badc?auto=format&fit=crop&w=150&q=80",
+      "notes": "Alergia a amendoim",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "fam_pedro_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Pedro",
+      "ageText": "5 anos",
+      "relationship": "Filho",
+      "avatarUrl": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=150&q=80",
+      "notes": "Gosta de futebol",
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "fam_lucas_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "name": "Lucas",
+      "ageText": "2 anos",
+      "relationship": "Filho",
+      "avatarUrl": "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=150&q=80",
+      "notes": "Fase de introdução alimentar",
+      "createdAt": "2026-10-21"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med_ana_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "memberId": "fam_ana_usr_brenda_silva",
+      "name": "Antitérmico / Paracetamol",
+      "dosage": "10ml",
+      "scheduleTimes": [
+        "08:00",
+        "12:00",
+        "16:00"
+      ],
+      "instructions": "Se apresentar febre acima de 37.8°C",
+      "notificationEnabled": true,
+      "active": true,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "med_pedro_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "memberId": "fam_pedro_usr_brenda_silva",
+      "name": "Vitamina D",
+      "dosage": "4 gotas",
+      "scheduleTimes": [
+        "08:00"
+      ],
+      "instructions": "Tomar pela manhã com suco ou leite",
+      "notificationEnabled": true,
+      "active": true,
+      "createdAt": "2026-10-21"
+    },
+    {
+      "id": "med_lucas_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "memberId": "fam_lucas_usr_brenda_silva",
+      "name": "Amoxicilina",
+      "dosage": "5ml",
+      "scheduleTimes": [
+        "08:00",
+        "20:00"
+      ],
+      "instructions": "Após as refeições. Manter na geladeira.",
+      "notificationEnabled": true,
+      "active": true,
+      "createdAt": "2026-10-21"
+    }
+  ],
+  "medicationDoses": [
+    {
+      "id": "dose_1",
+      "userId": "usr_brenda_silva",
+      "medicationId": "med_ana_usr_brenda_silva",
+      "memberId": "fam_ana_usr_brenda_silva",
+      "date": "2026-10-21",
+      "scheduledTime": "08:00",
+      "status": "administrado",
+      "recordedAt": "2026-10-21T08:05:00Z",
+      "recordedBy": "Brenda"
+    },
+    {
+      "id": "dose_2",
+      "userId": "usr_brenda_silva",
+      "medicationId": "med_ana_usr_brenda_silva",
+      "memberId": "fam_ana_usr_brenda_silva",
+      "date": "2026-10-21",
+      "scheduledTime": "12:00",
+      "status": "administrado",
+      "recordedAt": "2026-10-21T12:10:00Z",
+      "recordedBy": "Brenda"
+    },
+    {
+      "id": "dose_3",
+      "userId": "usr_brenda_silva",
+      "medicationId": "med_ana_usr_brenda_silva",
+      "memberId": "fam_ana_usr_brenda_silva",
+      "date": "2026-10-21",
+      "scheduledTime": "16:00",
+      "status": "pendente"
+    },
+    {
+      "id": "dose_4",
+      "userId": "usr_brenda_silva",
+      "medicationId": "med_pedro_usr_brenda_silva",
+      "memberId": "fam_pedro_usr_brenda_silva",
+      "date": "2026-10-21",
+      "scheduledTime": "08:00",
+      "status": "administrado",
+      "recordedAt": "2026-10-21T08:15:00Z",
+      "recordedBy": "Brenda"
+    },
+    {
+      "id": "dose_5",
+      "userId": "usr_brenda_silva",
+      "medicationId": "med_lucas_usr_brenda_silva",
+      "memberId": "fam_lucas_usr_brenda_silva",
+      "date": "2026-10-21",
+      "scheduledTime": "08:00",
+      "status": "pendente"
+    },
+    {
+      "id": "dose_6",
+      "userId": "usr_brenda_silva",
+      "medicationId": "med_lucas_usr_brenda_silva",
+      "memberId": "fam_lucas_usr_brenda_silva",
+      "date": "2026-10-21",
+      "scheduledTime": "20:00",
+      "status": "pendente"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Hora de beber água!",
+      "message": "Sua saúde agradece! Que tal um copo fresco agora?",
+      "time": "09:00",
+      "read": true,
+      "type": "habito",
+      "createdAt": "2026-10-21T09:00:00Z"
+    },
+    {
+      "id": "notif_2_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Reunião de trabalho",
+      "message": "Faltam 30 minutos para seu alinhamento semanal.",
+      "time": "10:30",
+      "read": true,
+      "type": "compromisso",
+      "createdAt": "2026-10-21T10:00:00Z"
+    },
+    {
+      "id": "notif_3_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Hora do almoço",
+      "message": "Vamos recarregar as energias com uma pausa tranquila.",
+      "time": "12:00",
+      "read": false,
+      "type": "rotina",
+      "createdAt": "2026-10-21T12:00:00Z"
+    },
+    {
+      "id": "notif_4_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Remédio das crianças",
+      "message": "É hora de administrar a dose prescrita do Lucas!",
+      "time": "15:00",
+      "read": false,
+      "type": "medicamento",
+      "createdAt": "2026-10-21T15:00:00Z"
+    },
+    {
+      "id": "notif_5_usr_brenda_silva",
+      "userId": "usr_brenda_silva",
+      "title": "Rotina da noite",
+      "message": "Você está quase lá! Prepare o descanso da casa.",
+      "time": "19:00",
+      "read": false,
+      "type": "rotina",
+      "createdAt": "2026-10-21T19:00:00Z"
+    }
+  ],
+  "preferences": [
+    {
+      "userId": "usr_brenda_silva",
+      "voiceSpeed": 1,
+      "voicePitch": 1,
+      "voiceVolume": 1,
+      "autoSpeak": true,
+      "theme": "claro",
+      "soundEnabled": true,
+      "pushEnabled": true
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_1792543679380_89t0p",
+      "userId": "usr_brenda_silva",
+      "action": "SEED_DEMO",
+      "details": "Carregados dados demonstrativos da Brenda Silva",
+      "timestamp": "2026-10-21T00:47:59.380Z"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    
+    /* Warm Beige Palette */
+    --beige-50: #FAF7F2;
+    --beige-100: #F5EFE6;
+    --beige-200: #EAE3D6;
+    --beige-300: #DDD4C4;
+    --beige-400: #C4B9A5;
+    
+    /* Neutral Dark Stone for Typography & Primary Actions */
+    --stone-dark: #2C2824;
+    --stone-medium: #4A443D;
+    --stone-muted: #756D63;
+    
+    /* Success Green (RESERVED STRICTLY FOR COMPLETED HABITS & DOSES) */
+    --completed-green: #2D6A4F;
+    --completed-green-light: #E8F5E9;
+    
+    /* Negative Habits */
+    --negative-soft: #FFEBEE;
+    --negative-accent: #E63946;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF7F2;
+    color: #2C2824;
+    -webkit-tap-highlight-color: transparent;
+    overscroll-behavior-y: none;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    color: #2C2824;
+  }
+}
+
+/* Safe areas for mobile devices */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 16px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 16px);
+}
+
+/* Custom subtle scrollbar in beige */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(117, 109, 99, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(117, 109, 99, 0.35);
+}
